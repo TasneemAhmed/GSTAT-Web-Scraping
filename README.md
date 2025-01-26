@@ -74,6 +74,8 @@ The entire process (scraping and ETL) is scheduled to run periodically using SQL
 - Create a **SQL Server Agent Job** for the SSIS package.
 - Define a quarterly schedule to trigger the process.
 - Monitor job status and execution history directly within SSMS.
+- GSTAT Container from SSIS Package which runs web scraping process and if successful then GSTAT ETL process  
+![SSIS Package](Documentation/SSIS Package.png)
 ---
 
 ## Requirements
